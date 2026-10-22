@@ -1,0 +1,6 @@
+{
+  "name": "Burkozel — O‘zbek Karta O‘yini",
+  "description": "O‘zbek tilidagi klassik Burkozel (36 talik koloda) karta o‘yini: botlar bilan 4 darajada, juftlik rejimida va online xonalarda o‘ynang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

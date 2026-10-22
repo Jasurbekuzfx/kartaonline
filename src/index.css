@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #06101e;
+    color: #f8fafc;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom gold text gradient */
+.gold-title {
+  background: linear-gradient(180deg, #FFF3B0 0%, #F59E0B 48%, #B45309 85%, #FDE68A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.75));
+}
+
+/* Glossy Green 3D Button */
+.btn-green-glossy {
+  background: linear-gradient(180deg, #34D399 0%, #10B981 18%, #047857 82%, #065F46 100%);
+  border: 2px solid #FBBF24;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5), inset 0 2px 2px rgba(255, 255, 255, 0.45), inset 0 -3px 6px rgba(0, 0, 0, 0.35);
+}
+.btn-green-glossy:hover {
+  filter: brightness(1.06);
+}
+.btn-green-glossy:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Glossy Gold Button */
+.btn-gold-glossy {
+  background: linear-gradient(180deg, #FEF08A 0%, #FBBF24 25%, #D97706 85%, #B45309 100%);
+  border: 1.5px solid #FEF3C7;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.45), inset 0 2px 2px rgba(255, 255, 255, 0.6), inset 0 -2px 4px rgba(146, 64, 14, 0.4);
+  color: #1E1B18;
+}
+.btn-gold-glossy:hover {
+  filter: brightness(1.05);
+}
+.btn-gold-glossy:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Glossy Blue Button */
+.btn-blue-glossy {
+  background: linear-gradient(180deg, #60A5FA 0%, #2563EB 25%, #1D4ED8 85%, #1E3A8A 100%);
+  border: 1.5px solid #93C5FD;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.45), inset 0 2px 2px rgba(255, 255, 255, 0.45), inset 0 -2px 4px rgba(30, 58, 138, 0.5);
+}
+.btn-blue-glossy:hover {
+  filter: brightness(1.06);
+}
+.btn-blue-glossy:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Dark Slate Menu Button */
+.btn-navy-panel {
+  background: linear-gradient(180deg, rgba(22, 42, 74, 0.92) 0%, rgba(12, 25, 46, 0.96) 100%);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.btn-navy-panel:hover {
+  border-color: rgba(251, 191, 36, 0.55);
+  background: linear-gradient(180deg, rgba(28, 52, 90, 0.95) 0%, rgba(15, 32, 58, 0.98) 100%);
+}
+
+/* Green Felt Table Texture */
+.felt-table-surface {
+  background: radial-gradient(ellipse at 50% 45%, #196B43 0%, #0F5132 58%, #072E1B 95%, #041D10 100%);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.75), 0 12px 35px rgba(0, 0, 0, 0.8);
+}
+
+/* Wood & Gold Rim around table */
+.table-wood-rim {
+  background: linear-gradient(135deg, #4A2511 0%, #2C1508 50%, #5C2E14 100%);
+  box-shadow: inset 0 2px 5px rgba(255, 215, 0, 0.35), 0 10px 30px rgba(0, 0, 0, 0.85);
+}
+
+/* Playing card realistic styling */
+.playing-card-shadow {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 22, 40, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.35);
+  border-radius: 9999px;
+}
+
